@@ -1,0 +1,24 @@
+<!-- todo/templates/todo/task_list.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>ToDo List</title>
+    </head>
+    <body>
+        <h1>ToDo List</h1>
+        <u1>
+            {% for task in tasks %}
+                <li>{{ task.title }} - {% if task.completed %}Completed{% else %}Pending{% endif %}</li>
+            {% endfor %}
+        </u1>
+        <a href="{% url 'add_task' %}">Add Task</a>
+        <h2>Add task</h2>
+        <form method="POST" action="{% url 'add_task' %}">
+            {% csrf_token %}
+            <input type="text" name="title">
+            <button type="submit">Add</button>
+        </form>
+    </body>
+</html>
