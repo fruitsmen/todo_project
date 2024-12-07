@@ -1,4 +1,4 @@
-# SIMPLE EXAMPLE TODO LIST ON DJANGO
+# SIMPLE EXAMPLE TODO LIST ON DJANGO WHITH SQLITE
 ```*In this example, only create tasks```  
 ```*Clone repository: git clone https://github.com/fruitsmen/todo_project.git```  
 ```*In CLI for start app: python manage.py runserver```  
