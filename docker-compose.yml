@@ -1,0 +1,6 @@
+services:
+   web:
+       build: .
+       command: python manage.py runserver localhost:8888
+       ports:
+           - 8888:8888
