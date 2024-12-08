@@ -6,4 +6,6 @@ WORKDIR /usr/src/app
 
 COPY . .
 
+CMD "python --version"
+
 CMD ["python", "manage.py runserver")"]
