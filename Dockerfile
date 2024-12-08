@@ -6,4 +6,6 @@ WORKDIR /usr/src/app
 
 COPY . .
 
-CMD ["python", "manage.py runserver"]
+CMD ["python", "print("I'm working...")"]
+
+CMD "ps aux"
