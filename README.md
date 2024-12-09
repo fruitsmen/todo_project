@@ -1,5 +1,5 @@
 # SIMPLE EXAMPLE TODO LIST (ONLY CREATE TASKS) ON DJANGO WHITH SQLITE
-  *Clone repository: ```git clone https://github.com/fruitsmen/todo_project.git```  
+*Clone repository: ```git clone https://github.com/fruitsmen/todo_project.git```  
 ```*Launch app options:```  
 ```**If you won start on host,run the cli command in the project directory: python manage.py runserver 127.0.0.1:8888```  
 ```**If you won start app in docker (need docker install),run the cli command in the project directory: docker run -p 8888:8888 container-id```  
