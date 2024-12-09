@@ -6,4 +6,4 @@
 ***For build docker image: ```docker build -t ToDoApp .```  
 ***For start container from docker image: ```docker run -p 8888:8888 container-id```  
 *Use app in browser: http://127.0.0.1:8888  
-*Administrate account on http://127.0.0.1:8000/admin (Uaser: admin; Pass: Test911Test)  
+*Administrate account on http://127.0.0.1:8888/admin (Uaser: admin; Pass: Test911Test)  
